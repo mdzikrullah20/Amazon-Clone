@@ -53,7 +53,6 @@
     color:white;
     font-size:20px;
 }
-
 .india{
     height: 40px;
     color: white;
@@ -256,15 +255,13 @@
     background-position:center;
 }
 .header{
-    height:200px;
+    height:3540px;
     width:100%;
-    border:4px solid red;
 }
 .card-container{
     width: 100%;
-    height: 2200px;
+    height: 3250px;
     background-color:lightgrey;
-    border: 3px solid rgb(205, 255, 67);
     position: relative;
     bottom: 376px;
 }
@@ -275,10 +272,9 @@
 .card{
     height:400px;
     width:330px;
-    border:1px solid red;
     margin:10px;
-    /* padding:10px; */
-    background-color: white;
+    padding:10px;
+    background-color:white;
 }
 .img-card{
     justify-content:center;
@@ -301,9 +297,7 @@
 }
 .product{
     height:130px;
-    width:150px;
-    border:1px solid red;   
-    /* background-color: aqua; */
+    width:150px; 
     display: flex;
     justify-content: center;
     align-items: center;  
@@ -312,7 +306,6 @@
 .product img{
     height:120px;
     width:135px;
-
 }
 .product-ops{
     height:30px;
@@ -320,10 +313,9 @@
     display:flex;
     justify-content:center;
     align-items: center;
-    border:1px solid blue;
 }
 .product-ops p{
- /* margin:5px 60px 0px 0px; */
+ margin:5px 60px 0px 0px;
  color:rgb(97, 95, 95);
  font-size:14px;
 
@@ -334,15 +326,12 @@
     width:120px;
     display:flex;
     justify-content: center;
-    border:1px solid black;
     margin-bottom:50px 80px;
-    /* text-decoration:none; */
 }
 .cpu{
     display: flex;
     justify-content: center;
     align-items: center;
-    border:2px solid black;
 }
 .cpu img{
     height:260px;
@@ -399,7 +388,6 @@
     display:flex;
     justify-content:center;
     align-items:center;
-    border:1px solid black;
 }
 .compra img{
     height:270px;
@@ -411,7 +399,6 @@
     display:flex;
     justify-content:center;
     align-items:center;
-    border:1px solid red;
 }
 .offer{
     height:24px;
@@ -429,7 +416,6 @@
 .Mejores{
     height:220px;
     width:90%;
-    border:1px solid red;
     display:flex;
     justify-content:center;
     align-items:center;
@@ -442,7 +428,6 @@
     height:290px;
     width:100%;
     background-color:white;
-    border:1px solid rgb(250, 10, 170);
 }
 .books{
     height:210px;
@@ -450,12 +435,10 @@
     display:flex;
     justify-content:center;
     align-items:center; 
-    border:1px solid black;
 }
 .books-card{
     height:220px;
     width:100%;
-     border:1px solid rgb(53, 9, 248);
      display:flex;
      justify-content:space-evenly;
      align-items:center; 
@@ -466,37 +449,31 @@
     display:flex;
     justify-content:center;
     align-items:center;
-    border:1px solid black;
 }
 .bunny-cat img{
     height:200px;
     width:200px;
-    border:1px solid black;
 }
 .bounty{
     height:210px;
     width:180px;
-    border:1px solid black;
 }
 .bottel-blue{
     height:210px;
     width:105px;
-    border:1px solid black;
 }
 .nespresso{
     height:210px;
     width:235px;
-    border:1px solid black;
+
 }
 .bottel{
     height:210px;
     width:60px;
-    border:1px solid black;
 }
 .papers{
     height:210px;
     width:300px;
-    border:1px solid black;
 }
 .papers img{
     height:210px;
@@ -505,7 +482,6 @@
 .presto{
     height:210px;
     width:290px;
-    border:1px solid black;
 }
 .presto img{
     height:210px;
@@ -515,17 +491,181 @@
     height:420px;
     width:100%;
     display:flex;
-    /* justify-content:space-evenly; */
-    /* align-items: center; */
-    border:1px solid rgb(54, 10, 250);
 }
 .bag{
     height:210px;
     width:160px;
-    border:1px solid black;
 }
-
-
-
+.TV-card{
+    height:210px;
+    width:160px;
+}
+.Identificate-bott{
+    height:100px;
+    width: 100%;
+    display:flex;
+    margin:5px;
+    justify-content:center;
+    align-items:center;
+    background-color:white;
+}
+.singin-tittel{
+    font-size:14px;
+}
+.action-inner button{
+    height:20px;
+    width:230px;
+    border-radius:6px;
+    font-family:Arial,sans-serif;
+    background-color:rgb(252, 172, 23);
+}
+.singin-tooltip{
+    font-size:0.7rem;
+}
+.footer-back-top{
+    height:40px;
+    width:100.5%;
+    display:flex;
+    color:white;
+    justify-content:center;
+    align-items:center;
+    background-color:#2c4057;
+}
+.footer-back-top-text{
+    height:20px;
+    width:9%;
+    font-family:Arial,sans-serif;
+}
+.fotter-back-second{
+    height:550px;
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+    background-color:#1b2136;
+}
+.Conócenos-card{
+    height:300px;
+    width:200px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    align-items:center;
+    margin-bottom:50px;
+}
+.fotter-head{
+    height:30px;
+    width:200px;
+    display:flex;
+    justify-content:left;
+    align-items:center;
+    color:white;
+    font-size:16px;
+}
+.fotter-card{
+    height:20px;
+    width:190px;
+    color:white;
+    font-size:13px;
+    justify-content:left;
+    font-family:Arial, sans-serif;
+    border:1px solid transparent;
+}
+.Gana{
+    height:350px;
+    width:250px;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    flex-direction:column;
+}
+.Productos{
+    height:200px;
+    width:230px;
+    flex-direction:column;
+    justify-content:space-evenly;
+    align-items:center;
+    display:flex;
+    margin-bottom:11%;
+}
+.Podemos{
+    height:300px;
+    width:200px;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    flex-direction:column;
+    margin-bottom:50px;
+}
+.fotter-logo-text{
+    height:100px;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:#1b2136;
+}
+.amazon-fotter-png{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-right:45px;
+}
+.amazon-fotter-png img{
+    height:60px;
+    width:100px;
+}
+.tuch-link{
+    height:35px;
+    width:130px;
+    display:flex;
+    justify-content:left;
+    align-items:center;
+    border:1px solid rgb(175, 173, 173);
+    border-radius:5px;
+    margin:10px;
+}
+.country-icon i{
+    height:15px;
+    width:13px;
+    color:lightgray;
+    margin:20px;
+}
+.espanol{
+    font-size:15px;
+    color:lightgray;
+    margin:16px 20px 15px 10px;
+}
+.cop-icp-button{
+    height:35px;
+    width:230px;
+    display:flex;
+    justify-content:left;
+    align-items:center;
+    color:lightgray;
+    border-radius:5px;
+    margin:10px;
+    border:1px solid rgb(175, 173, 173);
+}
+.dollar-icon i{
+    margin:10px;
+}
+.country-icp-button{
+    height:35px;
+    width:180px;
+    display:flex;
+    justify-content:left;
+    border-radius:5px;
+    align-items:center;
+    border:1px solid rgb(175, 173, 173);
+}
+.country-icp-button img{
+    height: 15px;
+    width:20px;
+    margin:10px;
+}
+.country-icp-button p{
+    color:lightgray;
+}
 
 
