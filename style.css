@@ -246,10 +246,10 @@
 .vender{
     height:38;
     width:50px;
-}.back-img{
+}.back-img img{
     height:620px;
     width:100%;
-    background-image:url(/amazon-back-img.jpg);
+    /* background-image:url(/amazon-back-img.jpg); */
     background-size:cover;
     background-repeat:no-repeat;
     background-position:center;
